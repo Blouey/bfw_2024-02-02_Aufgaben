@@ -20,4 +20,48 @@ public partial class MainWindow : Window
     {
         InitializeComponent();
     }
+
+    private void BtnTask1_OnClick(object sender, RoutedEventArgs e)
+    {
+        if (Helpers.IsWindowOpen<Task1>(""))
+        {
+            MessageBox.Show("The window is already open");
+        }
+        else
+        {
+            Task1 task1Window = new Task1();
+            task1Window.Show();
+        }
+    }
+
+    private void BtnTask2_OnClick(object sender, RoutedEventArgs e)
+    {
+        if (Helpers.IsWindowOpen<Task2>(""))
+        {
+            MessageBox.Show("The window is already open");
+        }
+        else
+        {
+            Task2 task2Window = new Task2();
+            task2Window.Show();
+        }
+    }
+
+    private void BtnTask3_OnClick(object sender, RoutedEventArgs e)
+    {
+        if (Helpers.IsWindowOpen<Task3>(""))
+        {
+            MessageBox.Show("The window is already open");
+        }
+        else
+        {
+            Task3 task3Window = new Task3();
+            task3Window.Show();
+        }
+    }
+    
+    private void BtnClose_OnClick(object sender, RoutedEventArgs e)
+    {
+        Close();
+    }
 }
