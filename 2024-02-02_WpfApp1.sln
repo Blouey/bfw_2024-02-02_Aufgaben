@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2024-02-02_WpfApp1", "2024-02-02_WpfApp1.csproj", "{E7724656-1102-4329-B2D4-C5F9DD7E3980}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7724656-1102-4329-B2D4-C5F9DD7E3980}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7724656-1102-4329-B2D4-C5F9DD7E3980}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7724656-1102-4329-B2D4-C5F9DD7E3980}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7724656-1102-4329-B2D4-C5F9DD7E3980}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
